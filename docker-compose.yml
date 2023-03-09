@@ -1,0 +1,7 @@
+version: '3.3'
+
+services:
+  frontend:
+    image: hakush1n/se234-lab12-automate-test-frontend:latest
+    ports:
+      - "8009:80"
