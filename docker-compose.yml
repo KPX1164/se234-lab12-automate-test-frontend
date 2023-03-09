@@ -4,9 +4,9 @@ services:
   frontend:
     image: asterkan/se234-lab12-copter:latest
     ports:
-      - "8090:80"
+      - "8091:80"
 
   backend:
     image: dto80/se234-lab12:latest
     ports:
-      - "8091:8080"
+      - "8090:8080"
