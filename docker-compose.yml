@@ -2,6 +2,11 @@ version: '3.3'
 
 services:
   frontend:
-    image: hakush1n/se234-lab12-automate-test-frontend:latest
+    image: asterkan/se234-lab12-copter:latest
     ports:
-      - "8009:80"
+      - "8090:80"
+
+  backend:
+    image: dto80/se234-lab12:latest
+    ports:
+      - "8091:8080"
